@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 import { CustomAuthGuard } from './custom-auth.guard';
 import { GlobalService } from './global.service'; // 导入全局服务
 

@@ -21,7 +21,7 @@ export class CustomAuthGuard implements CanLoad {
       // 模拟异步操作
       setTimeout(() => {
         resolve({ shouldLoadFirstModule: false });
-      }, 5000);
+      }, 2000);
     });
   }
 }
